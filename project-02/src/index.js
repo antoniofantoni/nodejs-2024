@@ -2,9 +2,9 @@ const express = require("express")
 const app = express();
 
 app.get('/', (req, res) => {
-	response.send("API disponível")
+	res.send("Seja bem vindo a minha API!")
 })
 
-app.listen(3000, () => {
-console.log("Servidor rodando na porta 3000")
+app.listen(3001, () => {
+console.log("Servidor rodando na porta 3001!")
 })
